@@ -1,0 +1,16 @@
+URI-1007
+
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+    float A,B,c,d,DIFERENCA;
+    while(cin >> A >> B >> c >> d)
+    {
+    DIFERENCA = (A*B)-(c*d);
+    cout <<"DIFERENCA = "<<DIFERENCA<<endl;
+    }
+    return 0;
+}
