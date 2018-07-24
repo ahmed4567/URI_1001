@@ -1,0 +1,20 @@
+URI-1014
+
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    float x,y,mx;
+   while(cin >> x>>y )
+   {
+       mx= x/y;
+       cout << fixed <<setprecision(3)<<mx<<" km/l"<< endl;
+
+   }
+
+    return 0;
+}
+
