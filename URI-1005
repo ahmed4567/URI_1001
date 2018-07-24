@@ -1,0 +1,16 @@
+URI-1005
+
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+    float A,B,MEDIA;
+    while(cin >> A >> B)
+    {
+    MEDIA = (3.5*A+7.5*B)/11.0;
+    cout <<"MEDIA = "<<fixed << setprecision(5) <<MEDIA<<endl;
+    }
+    return 0;
+}
